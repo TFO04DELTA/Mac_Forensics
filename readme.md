@@ -1,3 +1,13 @@
+# install_mac_forensic_gui.sh
+#
+# Purpose: one-time setup script to ensure prerequisites for
+# mac_forensic_gui.py are met on macOS.
+# Includes explicit Homebrew Tkinter setup.
+
+
+--------------------------------------------------------------------------------
+
+
 mac_forensic_gui.py
 
 Simple, self-contained GUI tool (Tkinter) to perform an investigator-authorized
