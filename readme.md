@@ -29,3 +29,21 @@ Run:
 
 If you cannot run with sudo, run the CLI variant at the bottom or re-run the
 script with the required privileges. The GUI will check for root and warn.
+----------------------------------------------------------------------------------
+
+
+forensic_log_parser.py
+
+Standalone Tkinter GUI to stream-parse many large log files for iCloud / AppleID / sync
+and related suspicious events, correlate events into sessions, flag HIGH_PRIORITY sessions,
+and export matches + sessions with SHA256 manifest integration.
+
+Usage:
+    python3 forensic_log_parser.py
+
+Notes:
+ - Operates on copies (do not modify original evidence).
+ - Designed to be memory-efficient when scanning file-by-file, though matches are stored
+   for GUI interaction; very large numbers of matches may increase memory usage.
+ - collection_hashes.txt (manifest) is optional but recommended — the script will look
+   for it in the selected folder and attempt to match evidence file paths to include SHA256.
