@@ -29,6 +29,7 @@ Run:
 
 If you cannot run with sudo, run the CLI variant at the bottom or re-run the
 script with the required privileges. The GUI will check for root and warn.
+
 ----------------------------------------------------------------------------------
 
 
